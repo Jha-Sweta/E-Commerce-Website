@@ -1,0 +1,337 @@
+/* 
+* Design by Robert Mayer:https://goo.gl/CJ7yC8
+*
+*I intentionally left out the line that was supposed to be below the subheader simply because I don't like how it looks.
+*
+* Chronicle Display Roman font was substituted for similar fonts from Google Fonts.
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+#heading {
+    margin-top: -50px;
+    padding: 60px 0;
+    background-color: #fdf1ec;
+  }
+  
+  .wrapper {
+    height: 420px;
+    width: 654px;
+    margin: 50px auto;
+    border-radius: 7px 7px 7px 7px;
+    /* VIA CSS MATIC https://goo.gl/cIbnS */
+    -webkit-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+  }
+  
+  .product-img {
+    float: left;
+    height: 420px;
+    width: 327px;
+  }
+  
+  .product-img img {
+    border-radius: 7px 0 0 7px;
+  }
+  
+  .product-info {
+    float: left;
+    height: 420px;
+    width: 327px;
+    border-radius: 0 7px 10px 7px;
+    background-color: #ffffff;
+  }
+  
+  .product-text {
+    height: 300px;
+    width: 327px;
+  }
+  
+  .product-text h1 {
+    margin: 0 0 0 38px;
+    padding-top: 52px;
+    font-size: 34px;
+    color: #474747;
+  }
+  
+  .product-text h1,
+  .product-price-btn p {
+    font-family: 'Bentham', serif;
+  }
+  
+  .product-text h2 {
+    margin: 0 0 47px 38px;
+    font-size: 13px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #d2d2d2;
+    letter-spacing: 0.2em;
+  }
+  
+  .product-text p {
+    height: 125px;
+    margin: 0 0 0 38px;
+    font-family: 'Playfair Display', serif;
+    color: #8d8d8d;
+    line-height: 1.7em;
+    font-size: 15px;
+    font-weight: lighter;
+    overflow: hidden;
+  }
+  
+  .product-price-btn {
+    height: 103px;
+    width: 327px;
+    margin-top: 17px;
+    position: relative;
+  }
+  
+  .product-price-btn p {
+    display: inline-block;
+    position: absolute;
+    top: -13px;
+    height: 50px;
+    font-family: 'Trocchi', serif;
+    margin: 0 0 0 38px;
+    font-size: 28px;
+    font-weight: lighter;
+    color: #474747;
+  }
+  
+  span {
+    display: inline-block;
+    height: 50px;
+    font-family: 'Suranna', serif;
+    font-size: 34px;
+  }
+  
+  .product-price-btn button {
+    float: right;
+    display: inline-block;
+    height: 50px;
+    width: 176px;
+    margin: 0 40px 0 16px;
+    box-sizing: border-box;
+    border: transparent;
+    border-radius: 60px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color: #ffffff;
+    background-color: #9cebd5;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .product-price-btn button:hover {
+    background-color: #79b0a1;
+  }
+
+
+  /* hamburger */
+
+  #hamburger{
+    height: 8vh;
+    position: absolute;
+    top:50v;
+    
+}
+
+#hamburger-ul{
+    list-style-type: none;
+    padding:1vh;
+}
+
+.hamburger-li{
+    background-color: black;
+    height: 0.7vh;
+    margin:1vh;
+    width: 5vh;
+} 
+
+#hide-sec{
+    background-color: rgb(0, 0, 0);
+    color:white;
+    height: 90vh;
+    width: 20%;
+    opacity: 0.8;
+    padding:3vh 5vh;
+    position: relative;
+}
+#hidden-ul{
+    list-style-type: none;
+    margin-top:10vh ;
+}
+
+.hidden-li{
+    padding: 2vh 5vh;
+    font-size: 3vh ;
+    border-bottom: 1px solid rgb(207, 207, 207);
+    
+}
+
+#hide{
+    font-size: 2vh;
+    position: absolute;
+    right: 2vh;
+    border: 1px solid rgb(207, 207, 207);
+    padding: 1vh 2vh;
+}
+
+#hide:hover{
+    color: black;
+    background-color: antiquewhite;
+    border: 2px solid black;
+}
+
+.section1{
+    background-image: url("./image/pb.jpg");
+    background-size: cover;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+    
+    /* background-color: #444;   */
+    /* color:#fff;     */
+    font-family: sans-serif;
+}
+/* maybe */
+
+.design{
+    font-weight: bolder;
+    text-transform: capitalize;
+    color: white;
+    font-size: 4vh;
+}
+
+.main-heading{
+    color: white;
+    font-size: 14vh;
+    text-transform: uppercase;
+    border: 1px solid white;
+    letter-spacing: 2vh;
+    margin: 4vh auto;
+    padding: 5vh 10vh;
+    /* word-spacing: vh; */
+}
+
+.heading{
+    font-weight: bold;
+    margin-right: 5vh;
+}
+
+
+#main-sec{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(139, 139, 139);
+    word-spacing: 2vh;
+}
+
+.sec2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20vh 10vh;
+    background-color: rgb(209, 255, 247);
+}
+
+.sec2-ctr{
+    padding: 0 5vh;
+    text-align: center;
+}
+
+.ctr-heading{
+    font-size: 5vh;
+    margin-bottom: 5vh;
+}
+
+.ctr-para{
+    font-size: 3vh;
+    word-spacing: 1vh;
+}
+
+#img-add{
+    /* image: url("./add1.webp"); */
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+    height: 10vh;
+    width: 10vh;
+}
+
+#link-insert{
+    color: white;
+    text-decoration: none;
+}
+
+.hidden-li a{
+    color: aliceblue;
+    text-decoration:none;
+    list-style-type: none;
+}
+
+/* start */
+
+
+
+
+footer{
+  margin-top: 100px;
+  height: 400px;
+}
+
+#footer{
+  padding-top: 70px;
+}
+
+
+#img_sec1{
+  height: 400px;
+  width:500px ;
+}
+
+#modal-body{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 50px;
+
+}
+
+#modalHeading{
+  background-color: rgb(239, 209, 170);
+}
+
+
+#div_content_sec1{
+ 
+  background-image: url("./image/pb1.png");
+  background-size: cover; 
+  background-repeat: no-repeat;
+  height: 600px;
+  width: 800px;
+}
+
+#exampleModalLabel{
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+
+/* {
+  background-image: url("./image/clinique.png");
+  background-size: cover;
+  /* background-color: rgb(202, 202, 202);
+  background-blend-mode: multiply */
